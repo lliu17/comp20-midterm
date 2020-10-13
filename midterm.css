@@ -1,0 +1,43 @@
+h1 {
+	font-family: 'Cedarville Cursive';
+	text-align: center;
+}
+
+body {
+	font-family: 'Work Sans';
+}
+
+a:link {
+	text-decoration: none;
+	color: #80BFFF;
+}
+
+a:visited {
+	color: #80BFFF;
+}
+
+a:hover {
+	color: red;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+#nav-ul {
+	white-space: nowrap;
+}
+
+#nav-li {
+	display: inline;
+}
+
+#nav-bg {
+	padding: 5px;
+
+}
+
+#nav-content {
+	color: #80BFFF;
+}
