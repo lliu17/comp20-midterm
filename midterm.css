@@ -1,6 +1,12 @@
 h1 {
 	font-family: 'Cedarville Cursive';
 	text-align: center;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
 }
 
 body {
@@ -17,7 +23,7 @@ a:visited {
 }
 
 a:hover {
-	color: red;
+	color: #0059B3;
 }
 
 ul {
@@ -34,10 +40,40 @@ ul {
 }
 
 #nav-bg {
-	padding: 5px;
 
 }
 
 #nav-content {
 	color: #80BFFF;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 110px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-left: 530px;
+	font-size: 14px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: rgba(128, 191, 255, 0.5);
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
 }
