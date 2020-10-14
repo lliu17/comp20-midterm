@@ -15,11 +15,11 @@ body {
 
 a:link {
 	text-decoration: none;
-	color: white;
+	color: #80BFFF;
 }
 
 a:visited {
-	color: white;
+	color: #80BFFF;
 }
 
 a:hover {
@@ -40,7 +40,7 @@ ul {
 }
 
 .nav-content {
-	color: white;
+	color: #80BFFF;
 }
 
 .nav-bg {
@@ -65,8 +65,8 @@ li.currentPage {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 	font-size: 14px;
+	color: black;
 }
-
 
 .dropdown-content a {
 	color: black;
