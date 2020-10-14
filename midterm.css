@@ -31,20 +31,25 @@ ul {
 	text-align: center;
 }
 
-#nav-ul {
+.nav-ul {
 	white-space: nowrap;
 }
 
-#nav-li {
+.nav-li {
 	display: inline;
 }
 
-#nav-bg {
+.nav-bg {
 
 }
 
-#nav-content {
+.nav-content {
 	color: #80BFFF;
+}
+
+li.currentPage {
+	color: #00008B;
+	font-weight: bold;
 }
 
 .dropdown {
