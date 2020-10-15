@@ -3,8 +3,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="midterm.css">
-        <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Cedarville Cursive" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" href="images/logo1.png">
         <title>Great Lakes Gallery</title>
@@ -13,14 +13,17 @@
         	body { margin: 0; padding: 0;}
         	.home-image {
         		background-image: url("images/MLE_boats_in_marina.jpg");
-/*         		height: 600px; */
-			height: 100%;
-			width: 100%;
+        		height: 100%;
+				width: 100%;
         		background-position: center;
         		background-repeat: no-repeat;
         		background-size: cover;
         		position: absolute;
         	}
+			
+			.nav-bg {
+				position: relative;
+			}
 
         	.home-text {
         		text-align: center;
@@ -28,7 +31,7 @@
         		top: 50%;
         		left: 50%;
         		transform: translate(-50%, -50%);
-        		color: white;
+        		color: rgba(255,255,255,0.65);
         	}
 
         	.nav-content, a:visited {
@@ -53,6 +56,15 @@
 			}
 
 			.nav-bg { padding-top: 10px; }
+			
+			
+			footer {
+				position:absolute;
+				bottom:0;
+				width:100%;
+				text-align: center;
+				color:rgba(128,191,255,0.65);
+			}
 
         </style>
     </head>
@@ -84,6 +96,10 @@
         		<h3>Hello</h3>
         	</div>
         </div>
+		
+		<footer>
+			<p>Copyright &copy; 2020 The Intimadating Elizas</p>
+		</footer>
 
     </body>
 </html>
